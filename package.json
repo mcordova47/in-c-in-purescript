@@ -1,0 +1,28 @@
+{
+  "name": "in-c-in-purescript",
+  "version": "1.0.0",
+  "description": "Terry Riley’s in C coded in PureScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcordova47/in-c-in-purescript.git"
+  },
+  "author": "Marc Cordova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcordova47/in-c-in-purescript/issues"
+  },
+  "homepage": "https://github.com/mcordova47/in-c-in-purescript#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "purescript": "^0.14.3",
+    "spago": "^0.20.3"
+  }
+}
