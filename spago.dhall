@@ -19,7 +19,7 @@ to generate this file without the comments in this block.
     , "elmish-html"
     , "prelude"
     , "psci-support"
-    , "school-of-music"
+    -- , "school-of-music"
     ]
 , packages =
     ./packages.dhall

@@ -5,13 +5,14 @@ module Main
 import Prelude
 
 import Effect (Effect)
-import Elmish (ComponentDef, boot)
+import Elmish (ComponentDef)
+import Elmish.Boot (defaultMain)
 import Elmish.HTML.Styled as H
 
 main :: Effect Unit
 main =
-  boot
-    { domElementId: "app"
+  defaultMain
+    { elementId: "app"
     , def
     }
 
@@ -27,11 +28,7 @@ def =
   }
   where
     view _ _ =
-      H.div "vh-100 d-flex flex-column justify-content-center"
-        [ H.div "ml-4" $
-            H.div "watercolor-1" R.empty
-        , H.div "row" $
-            H.h1 "page-header text-center col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3" "Cade Farms"
-        , H.div "text-right mr-4" $
-            H.div "watercolor-2" R.empty
-        ]
+      H.h1 ""
+      [ H.em "" "in C"
+      , H.text ", in PureScript"
+      ]

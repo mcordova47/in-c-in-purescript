@@ -9,12 +9,11 @@ let additions =
           mkPackage
             [ "midi"
             , "foldable-traversable"
-            , "generics-rep"
             , "rationals"
             , "math"
             ]
-            "https://github.com/newlandsvalley/purescript-school-of-music"
-            "v1.2.4"
+            "https://github.com/mcordova47/purescript-school-of-music"
+            "v1.3.0"
       }
 
 in  upstream // additions
